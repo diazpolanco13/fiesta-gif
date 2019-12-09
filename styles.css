@@ -1,0 +1,33 @@
+
+* {
+    margin: 0px;
+}
+body {
+
+    background: url("https://www.premiumsuitehotels.com/wp-content/uploads/2019/03/PSHotels-conciertos_festivales_musica_2019.jpg") no-repeat;
+    background-size:100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+
+.fiesta {
+    height: 100vh;
+}
+.fiesta__concierto {
+    margin-top: 60px;
+
+}
+.fiesta__concierto--cantante {
+    width: 200px;
+    height: 200px;
+}
+.fiesta__concierto--publico {
+        margin: -3px;
+        width: 400px;
+        height:200px;
+        transform: rotate(0deg);
+
+}
+
